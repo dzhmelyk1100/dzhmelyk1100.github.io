@@ -1,2 +1,2 @@
 # dzhmelyk1100.github.io
-Laboratorki
+Репозиторій для здачі лабораторок
