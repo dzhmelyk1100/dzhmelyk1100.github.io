@@ -1,0 +1,130 @@
+body {
+color: #232323;
+font-family: 'Lato';
+background-color: #e9e7e7;
+}
+
+header {
+display:flex;
+flex-wrap: wrap;
+justify-content: space-between;
+font-size: 21px;
+font-weight: 300;
+margin: 100px 120px 100px 120px;
+}
+
+.cool-button-inverse, .cool-button, header > a {
+text-align:center;
+vertical-align: middle;
+line-height: 50px;
+}
+
+a {
+text-decoration: none;
+color: inherit;
+}
+
+h1 {
+font-family: 'Cardo';
+font-size: 81px;
+font-weight: 700;
+}
+
+b {
+font-weight: 900;
+}
+
+hr {
+border: 2px solid #232323;
+}
+
+u {
+text-decoration-line: underline;
+
+text-decoration-thickness: 0.1em;
+}
+
+p {
+font-size: 17px;
+font-weight: 400;
+margin: 20px 0px 20px 0px;
+}
+
+img {
+max-width: 100%;
+max-height: 100%;
+}
+
+input, textarea {
+border:solid #232323; 
+width: 400px;
+height: 50px; 
+background-color: inherit;
+border-radius: 5px;
+font-family: 'Lato';
+padding: 0 0 0 20px;
+}
+
+textarea {
+padding: 20px 0 0 20px;
+height: 100px;
+}
+
+footer > div > div > a {
+font-size: 21px;
+}
+
+.cool-button {
+color:#232323;
+font-size: 21px;
+font-weight: 900; 
+border-radius:10px;
+border:solid #232323; 
+transition: 0.3s;
+}
+
+.cool-button:hover {
+color:#e9e7e7; 
+background-color:#232323; 
+border:solid #232323;
+}
+
+.cool-button-inverse {
+color:#e9e7e7;
+font-size: 21px;
+font-weight: 900; 
+border-radius:10px; 
+border:solid #e9e7e7; 
+transition: 0.3s;
+background-color:#232323;
+}
+
+.cool-button-inverse:hover {
+color:#232323; 
+background-color:#e9e7e7; 
+border:solid #232323;
+}
+
+.collapsible, .collapsible-content {
+width: 90%;
+}
+
+.collapsible > p {
+margin: 20px 50px 20px 50px;
+}
+
+.collapsible > p::after {
+content: '\02795';
+float: right;
+}
+
+.collapsible.is-open > p::after {
+content: '\02796';
+}
+
+.collapsible-content {
+text-align: justify;
+max-height: 0;
+overflow: hidden;
+transition: max-height 0.2s ease-in-out;
+}
